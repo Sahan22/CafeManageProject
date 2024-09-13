@@ -1,0 +1,247 @@
+[
+  {
+    "ContainingType": "CafeAPI.Controllers.CafeController",
+    "Method": "DeleteCafeDetails",
+    "RelativePath": "api/Cafe/DeleteCafeDetails",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cafeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.CafeController",
+    "Method": "GetAllCafeDetails",
+    "RelativePath": "api/Cafe/GetAllCafeDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.CafeController",
+    "Method": "GetAllCafeDropdown",
+    "RelativePath": "api/Cafe/GetAllCafeDropdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.CafeController",
+    "Method": "GetLocations",
+    "RelativePath": "api/Cafe/GetAllLocations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.CafeController",
+    "Method": "InsertCafeDetails",
+    "RelativePath": "api/Cafe/InsertCafeDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CafeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Logo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FK_LocationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LocationName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmployeeCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "logo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.CafeController",
+    "Method": "UpdateCafeDetails",
+    "RelativePath": "api/Cafe/UpdateCafeDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CafeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Logo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FK_LocationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LocationName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmployeeCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "logo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.EmployeeController",
+    "Method": "DeleteEmployeeDetails",
+    "RelativePath": "api/Employee/DeleteEmployeeDetails",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.EmployeeController",
+    "Method": "GetAllEmolyees",
+    "RelativePath": "api/Employee/GetAllEmolyees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cafeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.EmployeeController",
+    "Method": "InsertEmployeeDetails",
+    "RelativePath": "api/Employee/InsertEmployeeDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeDetails",
+        "Type": "CafeAPI.Core.Employee.EmployeeDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.EmployeeController",
+    "Method": "UpdateEmployeeDetails",
+    "RelativePath": "api/Employee/UpdateEmployeeDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeDetails",
+        "Type": "CafeAPI.Core.Employee.EmployeeDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CafeAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CafeAPI.WeatherForecast, CafeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
